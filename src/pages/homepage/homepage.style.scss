@@ -1,0 +1,39 @@
+.homepage {
+  // background: orange;
+  height: 100%;
+
+  .controllerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .elementContainer {
+    // width: 800px;
+    // background-color: gold;
+    // display: inline-block;
+
+    .component {
+      height: 200px;
+      width: 200px;
+      // width: 50%;
+
+      display: flex;
+
+      border: 5px black solid;
+      // background-color: red;
+    }
+
+    .A {
+      background-color: red;
+    }
+
+    .B {
+      background-color: green;
+    }
+
+    .C {
+      background-color: blue;
+    }
+  }
+}
