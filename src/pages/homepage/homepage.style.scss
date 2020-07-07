@@ -10,15 +10,20 @@
 
   .elementContainer {
     // width: 800px;
-    // background-color: gold;
+    height: 50%;
+    background-color: gold;
     // display: inline-block;
 
     .component {
-      height: 200px;
+      min-height: 200px;
+      // min-width: 200px;
+      // height: 200px;
       width: 200px;
-      // width: 50%;
 
       display: flex;
+
+      align-items: center;
+      justify-content: center;
 
       border: 5px black solid;
       // background-color: red;
